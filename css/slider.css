@@ -1,0 +1,46 @@
+.wrapper {
+  width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#slider {
+  width: 600px;
+  height: 400px;
+  overflow: hidden;
+  margin: 30 auto;
+}
+
+#slider > img {
+  width: 600px;
+  height: 400px;
+  float: left;
+  display: none;
+}
+
+a {
+  padding: 5px 10px;
+  background-color: #F0F0F0;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #666;
+}
+
+a.left {
+  float: left;
+}
+
+a.right {
+  float: right;
+}
+
+.expose {
+    position:relative;
+}
+
+#overlay {
+    background:rgba(0,0,0,0.6);
+    display:none;
+    width:100%; height:100%;
+    position:absolute; top:0; left:0; z-index:99998;
+}
